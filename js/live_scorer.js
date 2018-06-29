@@ -43,7 +43,7 @@ function buildLiveScorerView(div_id, data, domain){
   jQuery.each(data.matches, function( index, value ) {
     //console.log(value)
     str=""
-      str+="<div class='lsw-col-3 lsw-col-s-3 lsw-left'>"
+      str+="<div class='lsw-col-12 lsw-col-s-12 lsw-left'>"
         str+="<div class='lsw_outer_div'>"
           str+="<div class='lsw-col-12'>"
             str+="<div class='lsw-header'>"
